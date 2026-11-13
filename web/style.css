@@ -272,8 +272,11 @@ img{max-width:100%;display:block}
 .article .meta{font-size:13.5px;color:var(--muted);margin-bottom:10px;display:flex;align-items:center;gap:7px}
 .article .meta svg{width:15px;height:15px;color:var(--gold)}
 .article h3{font-size:20px;line-height:1.35;margin-bottom:12px}
-.article .more{color:var(--ink);font-weight:700;font-size:15px;display:inline-flex;align-items:center;gap:7px}
-.article .more svg{width:16px;height:16px;color:var(--gold)}
+.article .more{display:inline-flex;align-items:center;justify-content:center;gap:7px;margin-top:6px;
+  background:#fff;color:var(--ink);font-weight:700;font-size:14px;padding:9px 20px;border-radius:8px;
+  border:1.6px solid var(--gold);transition:background .25s,color .25s,box-shadow .25s,transform .25s}
+.article .more:hover{background:var(--gold);color:#2c2016;box-shadow:0 6px 16px rgba(209,142,54,.3);transform:translateY(-2px)}
+.article .more svg{display:none}
 
 /* ===== Contact ===== */
 .contact{background:var(--paper)}
