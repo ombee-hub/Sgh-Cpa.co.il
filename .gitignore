@@ -1,8 +1,0 @@
-# Claude Code / tooling config (not part of the website)
-.claude/
-
-# OS junk
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-.DS_Store
