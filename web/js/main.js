@@ -9,6 +9,16 @@
     });
   }
 
+  /* logo click → scroll to the very top, never jump down to #top */
+  var brandTop = document.querySelector('.brand[href="#top"], .brand[href="#"]');
+  if (brandTop) {
+    brandTop.addEventListener("click", function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      if (history.replaceState) history.replaceState(null, "", location.pathname);
+    });
+  }
+
   /* mobile menu */
   var burger = document.getElementById("burger");
   var menu = document.getElementById("menu");
