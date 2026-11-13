@@ -60,8 +60,8 @@
     המשך הגלישה מהווה הסכמה למדיניות שלנו. למידע נוסף — <a href="privacy-policy.html">מדיניות הפרטיות</a>.
   </div>
   <div class="sgh-cookie-actions">
-    <button type="button" class="sgh-cookie-btn sgh-cookie-reject">רק הכרחיות</button>
-    <button type="button" class="sgh-cookie-btn sgh-cookie-accept">אישור כל העוגיות</button>
+    <button type="button" class="sgh-cookie-btn sgh-cookie-accept">מאשר/ת</button>
+    <button type="button" class="sgh-cookie-btn sgh-cookie-reject">ביטול</button>
   </div>
 </div>`;
 
