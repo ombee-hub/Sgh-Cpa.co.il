@@ -55,7 +55,7 @@
 <div class="sgh-cookie-in">
   <div class="sgh-cookie-ico">${COOKIE_ICON}</div>
   <div class="sgh-cookie-txt">
-    כדי לשפר את חוויית הגלישה שלכם, להתאים תכנים ולנתח את התנועה באתר — המשך הגלישה מהווה הסכמה למדיניות שלנו. למידע נוסף — <a href="privacy-policy.html">מדיניות הפרטיות</a>.
+    אתר זה משתמש בעוגיות (Cookies) כדי לשפר את חוויית הגלישה שלך. לפרטים נוספים ניתן לעיין ב<a href="privacy-policy.html">מדיניות הפרטיות</a>.
   </div>
   <div class="sgh-cookie-actions">
     <button type="button" class="sgh-cookie-btn sgh-cookie-accept">מאשר/ת</button>
