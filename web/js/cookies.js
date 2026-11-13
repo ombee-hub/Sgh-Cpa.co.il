@@ -22,9 +22,8 @@
 .sgh-cookie.show{transform:none}
 .sgh-cookie-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:26px;
   padding:16px 24px;flex-wrap:wrap}
-.sgh-cookie-ico{flex:none;width:46px;height:46px;border-radius:12px;display:flex;align-items:center;
-  justify-content:center;background:rgba(210,142,54,.16);color:#e2a446}
-.sgh-cookie-ico svg{width:26px;height:26px}
+.sgh-cookie-ico{flex:none;display:flex;align-items:center;justify-content:center;color:#e2a446}
+.sgh-cookie-ico svg{width:34px;height:34px}
 .sgh-cookie-txt{flex:1 1 320px;min-width:260px;font-size:14.5px;line-height:1.55;color:#ece3d2}
 .sgh-cookie-txt b{color:#fff;font-weight:700}
 .sgh-cookie-txt a{color:#e2a446;font-weight:700;text-decoration:underline;text-underline-offset:2px}
