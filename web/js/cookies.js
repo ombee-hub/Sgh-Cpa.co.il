@@ -14,12 +14,14 @@
 
   var style = document.createElement('style');
   style.textContent = `
-.sgh-cookie{position:fixed;left:0;right:0;bottom:0;z-index:9998;direction:rtl;
+.sgh-cookie{position:fixed;left:50%;bottom:18px;z-index:9998;direction:rtl;
+  width:calc(100% - 44px);max-width:880px;
   font-family:'Assistant',sans-serif;color:#fff;
   background:linear-gradient(120deg,#2c2016 0%,#3a2c1e 100%);
-  border-top:3px solid #d18e36;box-shadow:0 -10px 40px rgba(44,32,22,.35);
-  transform:translateY(120%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
-.sgh-cookie.show{transform:none}
+  border:1px solid rgba(226,164,70,.4);border-top:3px solid #d18e36;border-radius:14px;
+  box-shadow:0 16px 46px rgba(44,32,22,.45);
+  transform:translate(-50%,170%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
+.sgh-cookie.show{transform:translate(-50%,0)}
 .sgh-cookie-in{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;
   padding:10px 22px;flex-wrap:wrap}
 .sgh-cookie-ico{flex:none;display:flex;align-items:center;justify-content:center;color:#e2a446}
