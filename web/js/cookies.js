@@ -20,17 +20,17 @@
   border-top:3px solid #d18e36;box-shadow:0 -10px 40px rgba(44,32,22,.35);
   transform:translateY(120%);transition:transform .45s cubic-bezier(.4,0,.2,1)}
 .sgh-cookie.show{transform:none}
-.sgh-cookie-in{max-width:1200px;margin:0 auto;display:flex;align-items:center;gap:26px;
-  padding:16px 24px;flex-wrap:wrap}
+.sgh-cookie-in{max-width:960px;margin:0 auto;display:flex;align-items:center;justify-content:center;gap:16px;
+  padding:10px 22px;flex-wrap:wrap}
 .sgh-cookie-ico{flex:none;display:flex;align-items:center;justify-content:center;color:#e2a446}
-.sgh-cookie-ico svg{width:34px;height:34px}
-.sgh-cookie-txt{flex:1 1 320px;min-width:260px;font-size:14.5px;line-height:1.55;color:#ece3d2}
+.sgh-cookie-ico svg{width:26px;height:26px}
+.sgh-cookie-txt{flex:0 1 auto;min-width:0;font-size:13.5px;line-height:1.5;color:#ece3d2}
 .sgh-cookie-txt b{color:#fff;font-weight:700}
 .sgh-cookie-txt a{color:#e2a446;font-weight:700;text-decoration:underline;text-underline-offset:2px}
 .sgh-cookie-txt a:hover{color:#f0c072}
-.sgh-cookie-actions{flex:none;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
-.sgh-cookie-btn{font-family:'Assistant',sans-serif;font-weight:700;font-size:14.5px;cursor:pointer;
-  border-radius:9px;padding:11px 24px;border:1.6px solid transparent;transition:transform .2s,box-shadow .2s,background .2s,color .2s}
+.sgh-cookie-actions{flex:none;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.sgh-cookie-btn{font-family:'Assistant',sans-serif;font-weight:700;font-size:13.5px;cursor:pointer;
+  border-radius:8px;padding:8px 18px;border:1.6px solid transparent;transition:transform .2s,box-shadow .2s,background .2s,color .2s}
 .sgh-cookie-btn:focus-visible{outline:3px solid #e2a446;outline-offset:2px}
 .sgh-cookie-accept{background:#d18e36;color:#2c2016;box-shadow:0 6px 18px rgba(209,142,54,.3)}
 .sgh-cookie-accept:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(209,142,54,.42)}
