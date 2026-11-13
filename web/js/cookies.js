@@ -1,13 +1,14 @@
 /* ──────────────────────────────────────────────
    ששון גוטהלף הרץ — באנר עוגיות (Cookie Consent)
    רחב, בתחתית המסך, בשפת העיצוב של האתר: חום/זהב.
-   נשמר ב-localStorage ולא מופיע שוב לאחר בחירה.
+   מוצג רק בדף הבית, ומופיע מחדש בכל כניסה חדשה לאתר
+   (נשמר ב-sessionStorage — לא חוזר תוך אותה גלישה לאחר בחירה).
 ────────────────────────────────────────────── */
 (function () {
   "use strict";
   var KEY = 'sgh-cookie';
 
-  try { if (localStorage.getItem(KEY)) return; } catch (e) {}
+  try { if (sessionStorage.getItem(KEY)) return; } catch (e) {}
 
   var COOKIE_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"/><path d="M8.5 8.5h.01"/><path d="M16 15.5h.01"/><path d="M12 12h.01"/><path d="M7 14h.01"/><path d="M17 9h.01"/></svg>';
 
@@ -71,7 +72,7 @@
     });
 
     function choose(val) {
-      try { localStorage.setItem(KEY, val); } catch (e) {}
+      try { sessionStorage.setItem(KEY, val); } catch (e) {}
       bar.classList.remove('show');
       setTimeout(function () { bar.remove(); }, 450);
     }
