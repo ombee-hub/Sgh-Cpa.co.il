@@ -261,11 +261,11 @@ img{max-width:100%;display:block}
 .art-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
 .article{background:var(--paper);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;transition:.3s}
 .article:hover{transform:translateY(-8px);box-shadow:var(--shadow);border-color:var(--gold)}
-.article .thumb{height:180px;position:relative;display:grid;place-items:center;color:rgba(255,255,255,.9)}
-.article .thumb svg{width:54px;height:54px;opacity:.85}
-.article .thumb.t1{background:linear-gradient(150deg,var(--ink-3),var(--ink))}
-.article .thumb.t2{background-image:linear-gradient(rgba(44,32,22,.42),rgba(44,32,22,.55)),url('images/tractor.webp');background-size:cover;background-position:center}
-.article .thumb.t3{background:linear-gradient(150deg,#8a6a26,#4a3712)}
+.article .thumb{height:180px;position:relative;display:grid;place-items:center;color:rgba(255,255,255,.9);background-size:cover;background-position:center}
+.article .thumb svg{display:none}
+.article .thumb.t1{background-image:linear-gradient(rgba(44,32,22,.42),rgba(44,32,22,.55)),url('images/svc-tax.webp')}
+.article .thumb.t2{background-image:linear-gradient(rgba(44,32,22,.42),rgba(44,32,22,.55)),url('images/tractor.webp')}
+.article .thumb.t3{background-image:linear-gradient(rgba(44,32,22,.42),rgba(44,32,22,.55)),url('images/svc-consult.webp')}
 .article .cat{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.92);color:var(--ink);font-size:12.5px;
   font-weight:700;padding:5px 12px;border-radius:999px}
 .article .body{padding:26px}
